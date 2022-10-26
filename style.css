@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'coda', cursive;
+}
+
+
+
+.header {
+    background-color: #E1FFEE;
+    width: 100vw;
+    height: 6vh;
+}
+.header img, .header p, .header ul, .header li, .header a {
+    display: inline-block;
+    color: black;
+}
+.header img {
+    margin: 0.2% 0.8%;
+    width: 2.8vw;
+}
+.header p {
+    position: absolute;
+    margin: 1%;
+}
+.header ul {
+    position: absolute;
+    margin: 1% 0 0 75.5%;
+}
+
+
+
+
+main {
+    width: 100%;
+    height: 80%;
+}
+main .sidebar {
+    background-color: #A5F1E9;
+    display: inline-block;
+    width: 20%;
+    height: 80vh;
+}
+main .content {
+    position: absolute;
+    background-color: #7FBCD2;
+    display: inline-block;
+    width: 80vw;
+    height: 80%;
+    padding: 1%;
+}
+section div {
+    width: 85%;
+    height: 20.8%;
+    background: white;
+    margin: 7% auto;
+    padding: 3%;
+    border-radius: 4%;
+}
+
+
+footer {
+    background-color: #FFEEAF;
+}
+
+
+a {
+    text-decoration: none;
+}
