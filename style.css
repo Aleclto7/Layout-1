@@ -43,14 +43,14 @@ main .sidebar {
     background-color: #7FBCD2;
     display: inline-block;
     width: 20%;
-    height: 80vh;
+    height: 90vh;
 }
 main .content {
     background-color: #A5F1E9;
     position: absolute;
     display: inline-block;
     width: 80vw;
-    height: 80%;
+    height: 90vh;
     padding: 1%;
 }
 section div {
@@ -65,6 +65,20 @@ section div {
 
 footer {
     background-color: #FFEEAF;
+}
+footer p {
+    text-align: center;
+}
+footer ul {
+    margin-top: 1%;
+    text-align: center;
+}
+footer li {
+    display: inline-block;
+    margin-right: 1.5%;
+}
+ul img {
+    width: 1%;
 }
 
 
